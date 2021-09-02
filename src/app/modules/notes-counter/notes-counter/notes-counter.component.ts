@@ -1,7 +1,7 @@
 import {Component, Inject, OnInit, Optional} from '@angular/core';
 import {BehaviorSubject, Observable} from "rxjs";
 import {EventBusService} from "../models/event-bus.service";
-import {Note} from "../../../../../../angular-mfe1/src/app/modules/business-module/models/note.model";
+import {Note} from '../models/note.model';
 
 @Component({
   selector: 'notes-counter',
