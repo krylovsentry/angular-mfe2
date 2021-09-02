@@ -75,7 +75,12 @@ module.exports = {
           requiredVersion: dependencies['@angular/animations'],
           singleton: true,
 
-        }
+        },
+        'rxjs': {
+          version: dependencies['rxjs'],
+          requiredVersion: dependencies['rxjs'],
+          singleton: true,
+        },
       }
     }),
   ],
